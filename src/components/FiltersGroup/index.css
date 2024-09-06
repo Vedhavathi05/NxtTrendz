@@ -1,0 +1,58 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.image-styling {
+  width: 200px;
+  height: 30px;
+}
+
+.removing-the-styles {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.search-border {
+  background-color: #f1f5f9;
+  width: 200px;
+  padding: 5px;
+}
+.input-element {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.display-rating {
+  display: flex;
+}
+.clear-filters-button-styling {
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.active-class {
+  color: aqua;
+}
